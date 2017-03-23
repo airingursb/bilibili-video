@@ -55,7 +55,7 @@ def spider(url):
                 tminfo3 = ""
             tminfo = tminfo1 + '-' + tminfo2 + '-' + tminfo3
             time_log = each.xpath('//div[@class="tminfo"]/time/i/text()')
-            mid_log = each.xpath('//div[@class="b-btn f"]/@mid')
+            mid_log = each.xpath('//div[@class="b-btn f hide"]/@mid')
             name_log = each.xpath('//div[@class="usname"]/a/@title')
             article_log = each.xpath('//div[@class="up-video-message"]/div[1]/text()')
             fans_log = each.xpath('//div[@class="up-video-message"]/div[2]/text()')
