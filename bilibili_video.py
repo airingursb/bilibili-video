@@ -28,7 +28,7 @@ for i in range(17501, 100000):
     url = 'http://bilibili.com/video/av' + str(i)
     urls.append(url)
 
-
+#nihao
 def spider(url):
     html = requests.get(url, headers=head)
     selector = etree.HTML(html.text)
