@@ -11,6 +11,8 @@ import MySQLdb
 
 reload(sys)
 
+##id
+
 sys.setdefaultencoding('utf-8')
 
 # id av cid title tminfo time click danmu coins favourites duration honor_click honor_coins honor_favourites
